@@ -1,0 +1,41 @@
+@charset 'UTF-8';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.tab-pannel {
+width: 80%;
+margin: 10% auto;
+}
+
+.tab-group {
+  display: flex;
+  justify-content: center;
+}
+
+.tab {
+  padding: 5px;
+  list-style: none;
+  border: solid 1px #ccc;
+  flex-grow: 1;
+  text-align: center;
+  cursor: pointer;
+}
+
+.pannel-group {
+  height: 100px;
+  border: solid 1px #ccc;
+  border-top: none;
+  background: #eee;
+}
+
+.tab.is-active {
+background: #03a9f4;
+color:#FFF;
+}
+
+.pannel.is-show {
+  display: block;
+}
