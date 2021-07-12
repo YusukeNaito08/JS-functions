@@ -31,6 +31,9 @@ margin: 10% auto;
   background: #eee;
 }
 
+.pannel {
+  display: none;
+}
 .tab.is-active {
 background: #03a9f4;
 color:#FFF;
