@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>slideshow</title>
+  </head>
+  <body>
+    　
+
+    <div class="slider">
+      <div class="slides">
+        <!-- radio button start -->
+        <input type="radio" name="radio-btn" id="radio1" />
+        <input type="radio" name="radio-btn" id="radio2" />
+        <input type="radio" name="radio-btn" id="radio3" />
+        <input type="radio" name="radio-btn" id="radio4" />
+        <!-- radio button end -->
+        <!-- img start -->
+        <div class="slide first">
+          <img src="./img/1.jpg" alt="" srcset="" />
+        </div>
+        <div class="slide">
+          <img src="./img/2.jpg" alt="" srcset="" />
+        </div>
+        <div class="slide">
+          <img src="./img/3.jpg" alt="" srcset="" />
+        </div>
+        <div class="slide">
+          <img src="./img/4.jpg" alt="" srcset="" />
+        </div>
+        <!-- img end -->
+
+        <div class="navigation-auto">
+          <div class="auto-btn-1"></div>
+          <div class="auto-btn-2"></div>
+          <div class="auto-btn-3"></div>
+          <div class="auto-btn-4"></div>
+        </div>
+      </div>
+
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
