@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="img-box">
+        <div class="mySlides">
+          <img src="./img/service_item-01.jpeg" alt="" />
+          <p class="title">きんぎょすくい/ペットショップでめ</p>
+          <p class="price">一回 100円</p>
+          <p class="text">お祭りの王道、きんぎょすくい。ひらひらとプールを泳ぐ金魚は夏の風物詩。 “ポイ”を使って逃げる金魚を上手にすくってみましょう。</p>
+        </div>
+        <div class="mySlides">
+          <img src="./img/service_item-02.jpeg" alt="" />
+          <p class="title">くじびき / ぴえろ/</p>
+          <p class="price">一回 100円</p>
+          <p class="text">たくさんのひもをたぐりよせて、大物商品Getを目指そう。 話題の人気商品や可愛いぬいぐるみ、かっこいい武器など多種多様。</p>
+        </div>
+        <div class="mySlides">
+          <img src="./img/service_item-03.jpeg" alt="" />
+          <p class="title">ヨーヨーつり / バブリン</p>
+          <p class="price">一回 100円</p>
+          <p class="text">ヨーヨーはもはや映えアイテム。夏の夜を彩るカラフルなヨーヨーは年齢を問わずマッチした夏祭り専用のアクセサリー 糸を垂らして、たくさんつりあげましょう。</p>
+        </div>
+        <div class="mySlides">
+          <img src="./img/service_item-04.jpeg" alt="" />
+          <p class="title">やきとり / かける</p>
+          <p class="price">一本 150円〜</p>
+          <p class="text">炭火でじっくりと焼き上げた串にかける秘伝のタレをつけてお召し上がりください。 さまざまな種類を用意していますので、お好みの串を見つけてみてください。</p>
+        </div>
+        <div class="mySlides">
+          <img src="./img/service_item-05.jpeg" alt="" />
+          <p class="title">やきそば / やまめん</p>
+          <p class="price">一パック 500円</p>
+          <p class="text">やまめん独自のやきそばパックを採用し、1パックに溢れんばかりの麺が載せられます。 ソースやのりはお好みでかけていただき、お召し上がりください。</p>
+        </div>
+        <div class="mySlides">
+          <img src="./img/service_item-06.jpeg" alt="" />
+          <p class="title">ボールすくい / 清田ゴム</p>
+          <p class="price">一回 100円</p>
+          <p class="text">カラフルなスーパーボールが ぐるぐる流れるプールに数多く浮かぶ。 “ポイ”を使ってお気に入りのスーパーボールを手に入れよう。</p>
+        </div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <div class="img-index">
+        <div class="img-index-contents">
+          <img src="./img/service_item-01.jpeg" class="demo cursor" onclick="currentSlide(1)" />
+          <p class="title">きんぎょすくい/ペットショップでめ</p>
+        </div>
+        <div class="img-index-contents">
+          <img src="./img/service_item-02.jpeg" class="demo cursor" onclick="currentSlide(2)" />
+          <p class="title">くじびき / ぴえろ</p>
+        </div>
+        <div class="img-index-contents">
+          <img src="./img/service_item-03.jpeg" class="demo cursor" onclick="currentSlide(3)" />
+          <p class="title">ヨーヨーつり / バブリン</p>
+        </div>
+        <div class="img-index-contents">
+          <img src="./img/service_item-04.jpeg" class="demo cursor" onclick="currentSlide(4)" />
+          <p class="title">やきとり / かける</p>
+        </div>
+        <div class="img-index-contents">
+          <img src="./img/service_item-05.jpeg" class="demo cursor" onclick="currentSlide(5)" />
+          <p class="title">やきそば / やまめん</p>
+        </div>
+        <div class="img-index-contents">
+          <img src="./img/service_item-06.jpeg" class="demo cursor" onclick="currentSlide(6)" />
+          <p class="title">ボールすくい / 清田ゴム</p>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+
+.container {
+  position: relative;
+}
+.img-box {
+  margin: 30px 47px 0 67px;
+}
+.mySlides {
+  display: none;
+}
+img {
+  width: 260px;
+  height: 220px;
+}
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  margin-top: 50%;
+  color: white;
+  font-size: 42px;
+}
+.next {
+  right: 3%;
+}
+.prev {
+  left: 3%;
+}
+p {
+  color: #fff;
+}
+
+.img-index {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 25px;
+}
+.column {
+  width: 90px;
+}
+.demo {
+  width: 100px;
+  height: 70px;
+}
